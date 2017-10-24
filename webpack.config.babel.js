@@ -7,7 +7,7 @@ import webpack from 'webpack';
 
 const extractSass = new ExtractPlugin({
   allChunks: true,
-  disable: process.env.NODE_ENV === 'development',
+  disable: process.env.NODE_ENV === ('development' || undefined),
   filename: 'content.css'
 });
 

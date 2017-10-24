@@ -1,2 +1,47 @@
-// body {
-// }
+// Addresses the background of the bar itself.
+// It is usually covered by the other elements
+::-webkit-scrollbar {
+  background: transparent;
+  display: none;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  z-index: 2147483647;
+}
+
+// addresses the directional buttons on the scrollbar
+::-webkit-scrollbar-button {
+
+}
+
+// addresses the empty space “below” the progress bar
+::-webkit-scrollbar-track {
+  // background: transparent;
+}
+
+// is the top-most layer of the the progress bar not
+// covered by the draggable scrolling element (thumb)
+::-webkit-scrollbar-track-piece {
+
+}
+
+// addresses the draggable scrolling element that resizes
+// depending on the size of the scrollable element
+::-webkit-scrollbar-thumb {
+  background: #bdbdbd;
+  margin-right: -1rem;
+  width: 1rem;
+}
+
+// addresses the (usually) bottom corner of the scrollable
+// element, where two scrollbars might meet
+::-webkit-scrollbar-corner {
+
+}
+
+
+// addresses the draggable resizing handle that appears
+// above the scrollbar-corner at the bottom corner of some elements
+::-webkit-resizer {
+
+}

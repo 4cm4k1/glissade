@@ -14,6 +14,7 @@
     "test": "xo --fix && ava"
   },
   "dependencies": {
+    "element-ready": "^2.2.0",
     "webext-dynamic-content-scripts": "^2.0.1",
     "webext-options-sync": "^0.12.0",
     "webextension-polyfill": "^0.2.1"
@@ -37,6 +38,7 @@
     "style-loader": "^0.19.0",
     "uglifyjs-webpack-plugin": "^1.0.1",
     "webpack": "^3.8.1",
+    "webpack-chrome-extension-reloader": "^0.6.0",
     "xo": "^0.18.2"
   },
   "remarkConfig": {

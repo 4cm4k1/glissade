@@ -2,6 +2,10 @@
 
 'use strict';
 
+import elementReady from 'element-ready';
+
 import content from '../scss/content.scss';
 
-console.log('Extension loaded');
+elementReady('body').then(element => {
+  console.info('<body> is ready, scrollbar loaded');
+});
