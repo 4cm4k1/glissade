@@ -34,28 +34,26 @@ const config = {
 
 if (process.env.NODE_ENV === 'production') {
   config.plugins.push(
-		new Uglify({
-  sourceMap: false,
-  uglifyOptions: {
-    mangle: true,
-    output: {
-      beautify: false
-    }
-  }
-})
-	);
+    new Uglify({
+      sourceMap: false,
+      uglifyOptions: {
+        mangle: true,
+        output: {
+          beautify: false
+        }
+      }
+    }));
 } else {
   config.plugins.push(
-		new Uglify({
-  sourceMap: true,
-  uglifyOptions: {
-    mangle: false,
-    output: {
-      beautify: true
-    }
-  }
-})
-	);
+    new Uglify({
+      sourceMap: true,
+      uglifyOptions: {
+        mangle: false,
+        output: {
+          beautify: true
+        }
+      }
+    }));
 }
 
 export default config;
