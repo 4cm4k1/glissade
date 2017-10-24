@@ -21,6 +21,7 @@
   "devDependencies": {
     "ava": "^0.22.0",
     "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
     "babel-preset-env": "^1.6.1",
     "babel-register": "^6.26.0",
     "remark": "^8.0.0",
@@ -28,6 +29,7 @@
     "remark-lint": "^6.0.1",
     "remark-preset-github": "^0.0.7",
     "sort-package-json": "^1.7.1",
+    "uglifyjs-webpack-plugin": "^1.0.0",
     "webpack": "^3.8.1",
     "xo": "^0.18.2"
   },
