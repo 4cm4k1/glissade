@@ -1,22 +1,43 @@
 import path from 'path';
+
+import CopyPlugin from 'copy-webpack-plugin';
+import ExtractPlugin from 'extract-text-webpack-plugin';
+import UglifyPlugin from 'uglifyjs-webpack-plugin';
 import webpack from 'webpack';
-import Uglify from 'uglifyjs-webpack-plugin';
+
+const extractSass = new ExtractPlugin({
+  allChunks: true,
+  disable: process.env.NODE_ENV === 'development',
+  filename: 'content.css'
+});
 
 const config = {
+  context: path.resolve(__dirname, 'src'),
   devtool: 'source-map',
   entry: {
-    background: './src/js/background',
-    content: './src/js/content',
-    options: './src/js/options'
+    background: './js/background',
+    content: './js/content',
+    options: './js/options'
   },
   module: {
     rules: [
       {
-        test: /\.js$/,
         exclude: /node_modules/,
+        test: /\.js$/,
         use: {
           loader: 'babel-loader'
         }
+      },
+      {
+        test: /\.scss$/,
+        use: extractSass.extract({
+          use: [{
+            loader: 'css-loader'
+          }, {
+            loader: 'sass-loader'
+          }],
+          fallback: 'style-loader'
+        })
       }
     ]
   },
@@ -28,13 +49,23 @@ const config = {
     new webpack.DefinePlugin({
       process: '0'
     }),
-    new webpack.optimize.ModuleConcatenationPlugin()
+    new webpack.optimize.ModuleConcatenationPlugin(),
+    new CopyPlugin([{
+      from: '*.json'
+    },
+    {
+      from: '*.html'
+    },
+    {
+      from: 'webp/*.webp'
+    }]),
+    extractSass
   ]
 };
 
 if (process.env.NODE_ENV === 'production') {
   config.plugins.push(
-    new Uglify({
+    new UglifyPlugin({
       sourceMap: false,
       uglifyOptions: {
         mangle: true,
@@ -45,7 +76,7 @@ if (process.env.NODE_ENV === 'production') {
     }));
 } else {
   config.plugins.push(
-    new Uglify({
+    new UglifyPlugin({
       sourceMap: true,
       uglifyOptions: {
         mangle: false,

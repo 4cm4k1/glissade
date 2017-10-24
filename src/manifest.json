@@ -6,14 +6,11 @@
   "homepage_url": "https://github.com/4cm4k1/glissade",
   "minimum_chrome_version": "62",
   "icons": {
-    "16": "webp/icon-16.png",
-    "128": "webp/icon-128.png"
+    "128": "webp/icon.webp"
   },
-  "default_locale": "en",
   "background": {
     "scripts": [
-      "js/chromereload.js",
-      "js/background.js"
+      "background.js"
     ]
   },
   "permissions": [
@@ -33,10 +30,10 @@
         "https://*/*"
       ],
       "js": [
-        "js/content.js"
+        "content.js"
       ],
       "css": [
-        "scss/content.css"
+        "content.css"
       ],
       "run_at": "document_start",
       "all_frames": false
