@@ -1,0 +1,46 @@
+{
+  "name": "glissade",
+  "version": "0.0.1",
+  "description": "Simple, opinionated scrollbar for Chrome",
+  "bugs": "https://github.com/4cm4k1/glissade/issues",
+  "license": "MIT",
+  "author": "Anthony Maki <4cm4k1@gmail.com> (https://anthony.codes)",
+  "contributors": [
+    "Anthony Maki <4cm4k1@gmail.com> (https://anthony.codes)"
+  ],
+  "repository": "https://github.com/4cm4k1/glissade",
+  "scripts": {
+    "lint": "xo --fix && remark README.md -o && sort-package-json",
+    "test": "xo --fix && ava"
+  },
+  "dependencies": {
+    "webext-dynamic-content-scripts": "^2.0.1",
+    "webext-options-sync": "^0.12.0",
+    "webextension-polyfill": "^0.2.1"
+  },
+  "devDependencies": {
+    "ava": "^0.22.0",
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-register": "^6.26.0",
+    "remark": "^8.0.0",
+    "remark-cli": "^4.0.0",
+    "remark-lint": "^6.0.1",
+    "remark-preset-github": "^0.0.7",
+    "sort-package-json": "^1.7.1",
+    "webpack": "^3.8.1",
+    "xo": "^0.18.2"
+  },
+  "remarkConfig": {
+    "plugins": [
+      "preset-github"
+    ]
+  },
+  "xo": {
+    "space": true,
+    "envs": [
+      "browser",
+      "webextensions"
+    ]
+  }
+}
