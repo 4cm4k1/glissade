@@ -1,5 +1,7 @@
 # Glissade
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/4cm4k1/glissade.svg)](https://greenkeeper.io/)
+
 
 ## Table of Contents
 
