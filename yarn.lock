@@ -6618,15 +6618,15 @@ watchpack@^1.4.0:
     chokidar "^1.7.0"
     graceful-fs "^4.1.2"
 
-webext-content-script-ping@^2.0.0-0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/webext-content-script-ping/-/webext-content-script-ping-2.0.0.tgz#a302c6126d49233b368b2895a7d57c81ca4df45e"
+webext-content-script-ping@^2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/webext-content-script-ping/-/webext-content-script-ping-2.0.1.tgz#efccbb795929631008dc08b21c5b34f6cb524b2a"
 
-webext-dynamic-content-scripts@^3.0.0:
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/webext-dynamic-content-scripts/-/webext-dynamic-content-scripts-3.0.0.tgz#d34777bdeb193f0a84622ac29d5e3b236807ea56"
+webext-dynamic-content-scripts@^3.0.1:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/webext-dynamic-content-scripts/-/webext-dynamic-content-scripts-3.0.1.tgz#d42453802a91d0e6680a4edf12242a8f3e7867cb"
   dependencies:
-    webext-content-script-ping "^2.0.0-0"
+    webext-content-script-ping "^2.0.1"
 
 webext-options-sync@^0.12.0:
   version "0.12.0"
