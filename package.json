@@ -14,7 +14,7 @@
     "test": "xo --fix && ava"
   },
   "dependencies": {
-    "element-ready": "^2.2.0",
+    "element-ready": "^2.2.1",
     "webext-dynamic-content-scripts": "^5.0.1",
     "webext-options-sync": "^0.13.0",
     "webextension-polyfill": "^0.2.1"
