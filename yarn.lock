@@ -6750,14 +6750,14 @@ webextension-polyfill@^0.2.1:
   version "0.2.1"
   resolved "https://registry.yarnpkg.com/webextension-polyfill/-/webextension-polyfill-0.2.1.tgz#cdfc9126033039f1713553157d35beff1d4d6f4a"
 
-webpack-chrome-extension-reloader@^0.6.2:
-  version "0.6.2"
-  resolved "https://registry.yarnpkg.com/webpack-chrome-extension-reloader/-/webpack-chrome-extension-reloader-0.6.2.tgz#6e3c14ecfc0e05b23d36abd89484f9bdb7a9cf59"
+webpack-chrome-extension-reloader@^0.6.3:
+  version "0.6.3"
+  resolved "https://registry.yarnpkg.com/webpack-chrome-extension-reloader/-/webpack-chrome-extension-reloader-0.6.3.tgz#c17061f748dd94c957f6181a086d6565e8ad7f1e"
   dependencies:
     colors "^1.1.2"
     lodash "^4.17.4"
     webpack-sources "^1.0.1"
-    ws "^3.0.0"
+    ws "^3.3.3"
 
 webpack-sources@^1.0.1:
   version "1.0.2"
@@ -6918,9 +6918,9 @@ write@^0.2.1:
   dependencies:
     mkdirp "^0.5.1"
 
-ws@^3.0.0:
-  version "3.2.0"
-  resolved "https://registry.yarnpkg.com/ws/-/ws-3.2.0.tgz#d5d3d6b11aff71e73f808f40cc69d52bb6d4a185"
+ws@^3.3.3:
+  version "3.3.3"
+  resolved "https://registry.yarnpkg.com/ws/-/ws-3.3.3.tgz#f1cf84fe2d5e901ebce94efaece785f187a228f2"
   dependencies:
     async-limiter "~1.0.0"
     safe-buffer "~5.1.0"

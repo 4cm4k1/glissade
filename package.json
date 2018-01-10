@@ -38,7 +38,7 @@
     "style-loader": "^0.19.1",
     "uglifyjs-webpack-plugin": "^1.1.6",
     "webpack": "^3.10.0",
-    "webpack-chrome-extension-reloader": "^0.6.2",
+    "webpack-chrome-extension-reloader": "^0.6.3",
     "xo": "^0.18.2"
   },
   "remarkConfig": {
