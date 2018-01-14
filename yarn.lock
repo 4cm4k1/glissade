@@ -6750,9 +6750,9 @@ webextension-polyfill@^0.2.1:
   version "0.2.1"
   resolved "https://registry.yarnpkg.com/webextension-polyfill/-/webextension-polyfill-0.2.1.tgz#cdfc9126033039f1713553157d35beff1d4d6f4a"
 
-webpack-chrome-extension-reloader@^0.6.3:
-  version "0.6.3"
-  resolved "https://registry.yarnpkg.com/webpack-chrome-extension-reloader/-/webpack-chrome-extension-reloader-0.6.3.tgz#c17061f748dd94c957f6181a086d6565e8ad7f1e"
+webpack-chrome-extension-reloader@^0.6.4:
+  version "0.6.4"
+  resolved "https://registry.yarnpkg.com/webpack-chrome-extension-reloader/-/webpack-chrome-extension-reloader-0.6.4.tgz#e6af34389c01e5e9a5215e7c15b4465378f0447b"
   dependencies:
     colors "^1.1.2"
     lodash "^4.17.4"
