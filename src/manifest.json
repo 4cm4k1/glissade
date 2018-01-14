@@ -9,32 +9,18 @@
     "128": "webp/icon.webp"
   },
   "background": {
-    "scripts": [
-      "background.js"
-    ]
+    "scripts": ["background.js"]
   },
-  "permissions": [
-    "storage",
-    "tabs",
-    "http://*/*",
-    "https://*/*"
-  ],
+  "permissions": ["storage", "tabs", "http://*/*", "https://*/*"],
   "options_ui": {
     "page": "options.html",
     "chrome_style": true
   },
   "content_scripts": [
     {
-      "matches": [
-        "http://*/*",
-        "https://*/*"
-      ],
-      "js": [
-        "content.js"
-      ],
-      "css": [
-        "content.css"
-      ],
+      "matches": ["http://*/*", "https://*/*"],
+      "js": ["content.js"],
+      "css": ["content.css"],
       "run_at": "document_start",
       "all_frames": false
     }

@@ -5,13 +5,13 @@
   "bugs": "https://github.com/4cm4k1/glissade/issues",
   "license": "MIT",
   "author": "Anthony Maki <4cm4k1@gmail.com> (https://anthony.codes)",
-  "contributors": [
-    "Anthony Maki <4cm4k1@gmail.com> (https://anthony.codes)"
-  ],
+  "contributors": ["Anthony Maki <4cm4k1@gmail.com> (https://anthony.codes)"],
   "repository": "https://github.com/4cm4k1/glissade",
   "scripts": {
-    "lint": "xo --fix && remark README.md -o && sort-package-json",
-    "test": "xo --fix && ava"
+    "precommit": "yarn run remark && yarn run sort && pretty-quick --staged",
+    "remark": "remark readme.md -o",
+    "sort": "sort-package-json",
+    "prettier": "prettier '**/*.{css,js,json,md,scss}' --write"
   },
   "dependencies": {
     "element-ready": "^2.2.1",
@@ -20,15 +20,17 @@
     "webextension-polyfill": "^0.2.1"
   },
   "devDependencies": {
+    "@babel/core": "^7.0.0-beta.37",
+    "@babel/preset-env": "^7.0.0-beta.37",
     "ava": "^0.24.0",
-    "babel-core": "^6.26.0",
-    "babel-loader": "^7.1.2",
-    "babel-preset-env": "^1.6.1",
-    "babel-register": "^6.26.0",
+    "babel-loader": "^8.0.0-beta.0",
     "copy-webpack-plugin": "^4.3.1",
     "css-loader": "^0.28.8",
     "extract-text-webpack-plugin": "^3.0.1",
+    "husky": "^0.14.3",
     "node-sass": "^4.7.2",
+    "prettier": "^1.10.2",
+    "pretty-quick": "^1.2.0",
     "remark": "^8.0.0",
     "remark-cli": "^4.0.0",
     "remark-lint": "^6.0.1",
@@ -38,19 +40,9 @@
     "style-loader": "^0.19.1",
     "uglifyjs-webpack-plugin": "^1.1.6",
     "webpack": "^3.10.0",
-    "webpack-chrome-extension-reloader": "^0.6.4",
-    "xo": "^0.18.2"
+    "webpack-chrome-extension-reloader": "^0.6.4"
   },
   "remarkConfig": {
-    "plugins": [
-      "preset-github"
-    ]
-  },
-  "xo": {
-    "space": true,
-    "envs": [
-      "browser",
-      "webextensions"
-    ]
+    "plugins": ["preset-github"]
   }
 }

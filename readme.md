@@ -1,6 +1,5 @@
 # Glissade
 
-
 ## Table of Contents
 
 * [Installation](#installation)
@@ -8,16 +7,13 @@
 * [Contributors](#contributors)
 * [License](#license)
 
-
 ## Installation
 
 Chrome Webstore link will go here.
 
-
 ## Contributing
 
 Please note that this project is released with a [Contributor Code of Conduct](CONDUCT.md). By participating in this project you agree to abide by its terms.
-
 
 ## Contributors
 
@@ -25,7 +21,6 @@ Please note that this project is released with a [Contributor Code of Conduct](C
 | ---------------- | ----------------------- |
 | **Anthony Maki** | <https://anthony.codes> |
 
-
 ## License
 
-[MIT](LICENSE) © [Anthony Maki](https://anthony.codes)
+[MIT](license) © [Anthony Maki](https://anthony.codes)

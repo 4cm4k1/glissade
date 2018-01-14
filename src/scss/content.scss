@@ -11,7 +11,6 @@
 
 // addresses the directional buttons on the scrollbar
 ::-webkit-scrollbar-button {
-
 }
 
 // addresses the empty space “below” the progress bar
@@ -22,7 +21,6 @@
 // is the top-most layer of the the progress bar not
 // covered by the draggable scrolling element (thumb)
 ::-webkit-scrollbar-track-piece {
-
 }
 
 // addresses the draggable scrolling element that resizes
@@ -36,12 +34,9 @@
 // addresses the (usually) bottom corner of the scrollable
 // element, where two scrollbars might meet
 ::-webkit-scrollbar-corner {
-
 }
-
 
 // addresses the draggable resizing handle that appears
 // above the scrollbar-corner at the bottom corner of some elements
 ::-webkit-resizer {
-
 }

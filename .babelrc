@@ -1,12 +1,3 @@
 {
-  "presets":
-  [
-    ["env", {
-      "targets": {
-        "chrome": 62,
-        "uglify": true
-      },
-      "useBuiltIns": true
-    }]
-  ]
+  "presets": ["@babel/preset-env"]
 }

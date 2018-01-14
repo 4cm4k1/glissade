@@ -2,9 +2,9 @@
 
 'use strict';
 
-import elementReady from 'element-ready';
+const elementReady = require('element-ready');
 
-import content from '../scss/content.scss';
+const content = require('../scss/content.scss');
 
 elementReady('body').then(element => {
   console.info('<body> is ready, scrollbar loaded');
