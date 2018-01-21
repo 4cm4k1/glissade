@@ -9,8 +9,8 @@
   "repository": "https://github.com/4cm4k1/glissade",
   "scripts": {
     "precommit": "yarn run remark && yarn run sort && pretty-quick --staged",
-    "remark": "remark readme.md -o",
-    "sort": "sort-package-json",
+    "remark": "remark . -o && git add '*.md'",
+    "sort": "sort-package-json && git add package.json",
     "prettier": "prettier '**/*.{css,js,json,md,scss}' --write"
   },
   "dependencies": {
