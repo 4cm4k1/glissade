@@ -37,8 +37,8 @@
     "remark-preset-github": "^0.0.8",
     "sass-loader": "^6.0.6",
     "sort-package-json": "^1.7.1",
-    "style-loader": "^0.20.1",
-    "uglifyjs-webpack-plugin": "^1.1.8",
+    "style-loader": "^0.20.2",
+    "uglifyjs-webpack-plugin": "^1.2.0",
     "webpack": "^3.11.0",
     "webpack-chrome-extension-reloader": "^0.7.0"
   },
