@@ -2,11 +2,11 @@
 
 ## Table of Contents
 
-* [Installation](#installation)
-* [Contributing](#contributing)
-* [Contributors](#contributors)
-* [Changelog](#changelog)
-* [License](#license)
+- [Installation](#installation)
+- [Contributing](#contributing)
+- [Contributors](#contributors)
+- [Changelog](#changelog)
+- [License](#license)
 
 ## Installation
 
