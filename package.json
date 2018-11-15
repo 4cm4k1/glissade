@@ -34,7 +34,7 @@
     "prettier": "1.13.6",
     "pretty-quick": "1.6.0",
     "remark": "9.0.0",
-    "remark-cli": "5.0.0",
+    "remark-cli": "6.0.1",
     "remark-lint": "6.0.2",
     "remark-preset-github": "0.0.8",
     "sass-loader": "7.0.3",
