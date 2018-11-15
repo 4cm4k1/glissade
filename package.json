@@ -33,7 +33,7 @@
     "node-sass": "4.9.0",
     "prettier": "1.13.6",
     "pretty-quick": "1.6.0",
-    "remark": "9.0.0",
+    "remark": "10.0.1",
     "remark-cli": "5.0.0",
     "remark-lint": "6.0.2",
     "remark-preset-github": "0.0.8",
