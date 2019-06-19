@@ -7328,9 +7328,9 @@ webext-content-script-ping@^2.0.1:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/webext-content-script-ping/-/webext-content-script-ping-2.0.1.tgz#efccbb795929631008dc08b21c5b34f6cb524b2a"
 
-webext-dynamic-content-scripts@5.0.1:
-  version "5.0.1"
-  resolved "https://registry.yarnpkg.com/webext-dynamic-content-scripts/-/webext-dynamic-content-scripts-5.0.1.tgz#aad7b14f9979ee5a79b2cb910969dc55732dbc5e"
+webext-dynamic-content-scripts@5.0.2:
+  version "5.0.2"
+  resolved "https://registry.yarnpkg.com/webext-dynamic-content-scripts/-/webext-dynamic-content-scripts-5.0.2.tgz#cac7ebbe632303713c2bbe7a5181b032af61a11e"
   dependencies:
     webext-content-script-ping "^2.0.1"
 
