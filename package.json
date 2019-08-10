@@ -18,7 +18,7 @@
   "dependencies": {
     "element-ready": "3.0.0",
     "webext-dynamic-content-scripts": "5.0.1",
-    "webext-options-sync": "0.15.2",
+    "webext-options-sync": "0.21.2",
     "webextension-polyfill": "0.2.1"
   },
   "devDependencies": {
