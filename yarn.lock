@@ -7338,9 +7338,9 @@ webext-options-sync@0.15.2:
   version "0.15.2"
   resolved "https://registry.yarnpkg.com/webext-options-sync/-/webext-options-sync-0.15.2.tgz#e846eda8b0981cabf2e5d4656fcac0a1cb139415"
 
-webextension-polyfill@0.2.1:
-  version "0.2.1"
-  resolved "https://registry.yarnpkg.com/webextension-polyfill/-/webextension-polyfill-0.2.1.tgz#cdfc9126033039f1713553157d35beff1d4d6f4a"
+webextension-polyfill@0.5.0:
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/webextension-polyfill/-/webextension-polyfill-0.5.0.tgz#795e0bf6a2b8eadcdb6edaecd169e9228c747519"
 
 webpack-chrome-extension-reloader@0.8.3:
   version "0.8.3"

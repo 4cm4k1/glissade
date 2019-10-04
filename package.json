@@ -19,7 +19,7 @@
     "element-ready": "3.0.0",
     "webext-dynamic-content-scripts": "5.0.1",
     "webext-options-sync": "0.15.2",
-    "webextension-polyfill": "0.2.1"
+    "webextension-polyfill": "0.5.0"
   },
   "devDependencies": {
     "@babel/core": "7.0.0-beta.51",
