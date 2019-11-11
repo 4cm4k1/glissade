@@ -38,7 +38,7 @@
     "remark-lint": "6.0.2",
     "remark-preset-github": "0.0.8",
     "sass-loader": "7.0.3",
-    "sort-package-json": "1.15.0",
+    "sort-package-json": "1.23.1",
     "style-loader": "0.21.0",
     "uglifyjs-webpack-plugin": "1.2.7",
     "webpack": "4.12.2",
