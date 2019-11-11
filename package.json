@@ -30,7 +30,7 @@
     "css-loader": "0.28.11",
     "extract-text-webpack-plugin": "3.0.2",
     "husky": "0.14.3",
-    "node-sass": "4.9.0",
+    "node-sass": "4.13.0",
     "prettier": "1.13.6",
     "pretty-quick": "1.6.0",
     "remark": "9.0.0",
